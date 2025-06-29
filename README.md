@@ -17,7 +17,8 @@ This is a simple content-based movie recommendation system I built using Python 
 A weighted Score is calculated to recommend movies that are both popular and highly rated
 Formula Used:
 
-     **weighted_score = (v / (v + m)) * R + (m / (v + m)) * C**
+
+     **weighted_score = (v / (v + m)) * R + (m / (v + m))*C**
  
   Where :
   - `V` = vote count
@@ -43,6 +44,8 @@ More complex Techniques like **matrix factorization**, **neural networks** can b
 
 ## Example:  
 Input: The Dark Knight
+
+
 Output: Batman Begins, The Prestige, Inception, etc.
 
 
