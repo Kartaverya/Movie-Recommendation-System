@@ -17,8 +17,7 @@ This is a simple content-based movie recommendation system I built using Python 
 A weighted Score is calculated to recommend movies that are both popular and highly rated
 Formula Used:
 
-
-**(v / (v + m)) * R + (m / (v + m)) * C**
+   **(v / (v + m)) * R + (m / (v + m)) * C**
 
   Where :
   - `V` = vote count
