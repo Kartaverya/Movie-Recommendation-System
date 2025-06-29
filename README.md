@@ -18,8 +18,8 @@ A weighted Score is calculated to recommend movies that are both popular and hig
 Formula Used:
 
 
-     **weighted_score = (v / (v + m)) * R + (m / (v + m))*C**
- 
+**(v / (v + m)) * R + (m / (v + m)) * C**
+
   Where :
   - `V` = vote count
   -  `R` = vote average
